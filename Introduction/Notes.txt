@@ -1,4 +1,18 @@
-Testing git as it failed before with an unknown error...
+Here we are again!
 
-Test!
+These are the required tools for the course completion:
+1. JDK (Java SE Development Kit)
+    java -version
+    output: NONE
+2. IntelliJ (Java IDE)
+    I wonder if I can use VS Code instead...
+3. Chrome
+4. ChromeDriver
 
+Plus some additional toos:
+1. Maven: a dependency management tool for Java
+2. Selenium WebDriver language bindings for Java
+3. JUnit as the assertion library
+
+
+Considering that I don't know if I will be completing the excercises, I will not install JDK just yet. 
