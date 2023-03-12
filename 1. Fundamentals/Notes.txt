@@ -1,0 +1,8 @@
+Selenium is great and comes with a couple of very useful tools:
+
+    1. Selenium Grid. We already know what it's for, check the other course! 
+        https://github.com/ACruzadoP/TRASH_Learning_Selenium
+    2. Selenium IDE. At first it was only available in Firefox apparently. Now it can be installed in some other browsers and each
+        one of them may be somehow different, so watch out! 
+
+

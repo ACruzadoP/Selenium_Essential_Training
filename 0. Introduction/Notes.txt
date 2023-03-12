@@ -15,4 +15,5 @@ Plus some additional toos:
 3. JUnit as the assertion library
 
 
-Considering that I don't know if I will be completing the excercises, I will not install JDK just yet. 
+Considering that I don't know if I will be completing the excercises, I will not install JDK just yet. But still, 
+some notes will be taken bc, why not!?
