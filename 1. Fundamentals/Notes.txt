@@ -6,3 +6,12 @@ Selenium is great and comes with a couple of very useful tools:
         one of them may be somehow different, so watch out! 
 
 
+
+I remember a way of adding the proper ChromeDriver version to the path, and it didn't work, maybe I was missing the following:
+
+    System.setProperty("webdriver.chrome.driver",
+    "/User/.../Downloads/.../chromedriver");
+
+    // The path won't be the same, obviously.
+
+
