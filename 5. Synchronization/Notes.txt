@@ -1,0 +1,26 @@
+
+There are two types of waits to be used:
+
+1. Implicit waits
+    - Waits for a specified amount of time. The difference with the standalone SLEEP is that this one doesn't need the main method to have "throws InterruptedException".
+        driver.manage().timeouts().implicitlyWait(#amount_of_time_to_wait_for#,TimeUnit.SECONDS);
+        exercise: Ex_Files_Selenium_EssT\Exercise Files\05_02
+
+2. Explicit waits
+    - Waits for a specified amount of time for a certain condition to be true. If the condition is not met in the specified time, an exception is thrown.
+        WebDriverWait wait = new WebDriverWait(driver,#max_amount_of_time_to_wait_for_in_seconds#) 
+            it has to be accompanied by the statement to specify the element we are waiting to be displayed. 
+            WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("element")));
+
+        exercise: Ex_Files_Selenium_EssT\Exercise Files\05_03
+
+        ExpectedConditions.
+            elementToBeClickable()
+            elementToBeSelected()
+            presenceOfElementLocated()
+            textToBePresentInElement()
+            ....
+
+
+
+

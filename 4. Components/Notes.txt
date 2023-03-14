@@ -1,11 +1,17 @@
 
 1. Radio buttons
+    https://formy-project.herokuapp.com/radiobutton
+    exercise: Ex_Files_Selenium_EssT\Exercise Files\04_02
 
-2. Checkboxes
+2. Date pickers
+    https://formy-project.herokuapp.com/datepicker
+    exercise: Ex_Files_Selenium_EssT\Exercise Files\04_03
 
-3. Date pickers
+3. Dropdown menus
+    https://formy-project.herokuapp.com/dropdown
+    exercise: Ex_Files_Selenium_EssT\Exercise Files\04_04
 
-4. Dropdown menus
-
-5. File upload
+4. File upload
+    https://formy-project.herokuapp.com/fileupload
+    exercise: Ex_Files_Selenium_EssT\Exercise Files\04_05
 

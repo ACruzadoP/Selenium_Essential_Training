@@ -6,7 +6,8 @@
 
     *Link text (TO BE AVOIDED by the I)
     *Tag name (TO BE AVOIDED by the I)
-    *XPath (TO BE AVOIDED by the I)
+    *XPath (TO BE AVOIDED by the I, as it's not descriptive but the other I said it's great to be used)
+        Right click in the html tag > Copy > Copy XPath 
 
     *CSS selector - The f. best (according to the I)
 

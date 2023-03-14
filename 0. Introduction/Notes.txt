@@ -5,7 +5,7 @@ These are the required tools for the course completion:
     java -version
     output: NONE
 2. IntelliJ (Java IDE)
-    I wonder if I can use VS Code instead...
+    I wonder if I could use VS Code instead...
 3. Chrome
 4. ChromeDriver
 
@@ -17,3 +17,9 @@ Plus some additional toos:
 
 Considering that I don't know if I will be completing the excercises, I will not install JDK just yet. But still, 
 some notes will be taken bc, why not!?
+
+I learnt something interesting while completing the course. Quitting the browser at the end of a test is a good way to determine if the test was a succeed,
+    if something went wrong in the script, the browser will stay open and you will know that something went wrong...
+
+
+    

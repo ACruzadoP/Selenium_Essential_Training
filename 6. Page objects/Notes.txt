@@ -1,0 +1,3 @@
+
+Page objects are a great way of keeping the tests properly organized. 
+    exercise: Ex_Files_Selenium_EssT\Exercise Files\06_04
