@@ -1,0 +1,79 @@
+
+- Most commong locators:
+    *Class name (RECOMMENDED by the I)
+    *Name (RECOMMENDED by the I)
+    *ID (RECOMMENDED by the I)
+
+    *Link text (TO BE AVOIDED by the I)
+    *Tag name (TO BE AVOIDED by the I)
+    *XPath (TO BE AVOIDED by the I)
+
+    *CSS selector - The f. best (according to the I)
+
+        given -> <input id="q" class="q" name="q">
+        
+            to use the id, go with... "#"
+            driver.findElement(By.cssSelector('#q'));
+            driver.findElement(By.cssSelector("input#q"));
+
+            to use the class, go with... "."
+            driver.findElement(By.cssSelector('.q'));
+            driver.findElement(By.cssSelector("input.q"));
+
+            to use the name, go with... "input[name='q']"
+            driver.findElement(By.cssSelector("input[name='q']"));
+            
+        given -> <input type="radio" value="radio button">
+
+            to use the type, go with...
+            driver.findElement(By.cssSelector("input[type='radio']"));
+
+        given -> <button type="button" class="btn btn-lg btn-primary">
+
+            to u se any of the classes, go with...
+            driver.findElement(By.cssSelector(".btn.btn-lg.btn-primary"));
+
+
+        
+
+- Ways to match text
+
+    Prefix 
+        a[id^='id_prefix_']
+
+    Suffix
+        a[id$='_id_suffix']
+
+    Substring
+        a[id*='id_pattern']
+
+    Exact match
+        a[id='id']
+        example:
+            <div id="textField">
+            driver.findElement(By.cssSelector("div[id='textField']"));
+
+
+
+
+- Wildcards and child selectors
+
+    <div ....>
+        <a ....>
+
+        driver.findElement(By.cssSelector("div#parent a"));
+
+
+    <ul id="list">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+
+            driver.findElement(By.cssSelector("#list li:nth-chilc(n)"));
+                being "n" either 1, 2 or 3, depending on the element we want to retrieve.
+
+
+
+
+

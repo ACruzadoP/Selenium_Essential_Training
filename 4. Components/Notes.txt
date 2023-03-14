@@ -1,0 +1,11 @@
+
+1. Radio buttons
+
+2. Checkboxes
+
+3. Date pickers
+
+4. Dropdown menus
+
+5. File upload
+

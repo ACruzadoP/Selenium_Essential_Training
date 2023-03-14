@@ -1,0 +1,42 @@
+Some of this were already written down from previous courses, but as a reminder let's go through each:
+I cannot run them as I don't have JDK installed, but I will make sure everything is properly explained.
+
+Example run with: https://formy-project.herokuapp.com/
+
+1. Keyboard and mouse input
+    https://formy-project.herokuapp.com/keypress
+    exercise: Ex_Files_Selenium_EssT\Exercise Files\02_02
+
+2. Autocomplete
+    https://formy-project.herokuapp.com/autocomplete
+    considerations: Autocomplete doesn't seem to work on my end... maybe I had to store some addresses in the browser before starting to automate
+    exercise: Ex_Files_Selenium_EssT\Exercise Files\02_03
+
+3. Scrolling
+    https://formy-project.herokuapp.com/scroll
+    exercise: Ex_Files_Selenium_EssT\Exercise Files\02_04
+
+4. Switching to another window
+    https://formy-project.herokuapp.com/switch-window
+    exercise: Ex_Files_Selenium_EssT\Exercise Files\02_05
+    2 ways of doing so, actually one as the other ones is for frames:
+        a - driver.switchTo().window("windowName");
+        b - driver.switchTo().frame("frameName");
+
+5. Switching to an alert
+    https://formy-project.herokuapp.com/switch-window
+    exercise: Ex_Files_Selenium_EssT\Exercise Files\02_06
+        driver.switchTo().alert();
+
+6. JS commands through JavascriptExecutor
+    https://formy-project.herokuapp.com/modal
+    exercise: Ex_Files_Selenium_EssT\Exercise Files\02_07
+    Uses:
+        1. When WebDriver fails to click on any element 
+        2. To trigger actions on page
+        3. To perform movement on a page
+
+7. Drag and Drop
+    https://formy-project.herokuapp.com/dragdrop
+    exercise: Ex_Files_Selenium_EssT\Exercise Files\02_08
+
